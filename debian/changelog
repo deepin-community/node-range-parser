@@ -1,0 +1,52 @@
+node-range-parser (1.2.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.0
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+
+ -- Yadd <yadd@debian.org>  Fri, 24 Sep 2021 16:06:45 +0200
+
+node-range-parser (1.2.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Bump debhelper from old 10 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set field Upstream-Contact in debian/copyright.
+  * Set upstream metadata fields: Bug-Submit.
+  * Remove obsolete fields Contact, Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Update standards version to 4.5.0, no changes needed.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * New upstream version 1.2.1
+  * Use dh-sequance-nodejs auto test & install
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 12 Oct 2020 14:49:58 +0200
+
+node-range-parser (1.2.0-1) unstable; urgency=medium
+
+  * New upstream version 1.2.0
+  * Section javascript, priority optional
+  * Update Vcs-* fields
+  * Standards-Version 4.3.0
+  * Enable tests and autopkgtest
+  * Update Homepage
+  * Update copyright
+  * Build-Depends mocha
+  * Remove debian/docs, README.md is known
+  * dh 10
+
+ -- Jérémy Lal <kapouer@melix.org>  Thu, 10 Jan 2019 15:43:06 +0100
+
+node-range-parser (0.0.4+git7d1cd72a-1) unstable; urgency=low
+
+  * Initial release (Closes: #727798)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sun, 03 Nov 2013 22:06:54 +0100
